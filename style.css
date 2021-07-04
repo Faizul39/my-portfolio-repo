@@ -8,6 +8,9 @@ h1{
 h2{
     font-size: 40px;
 }
+.orange-color{
+    color: orange;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 150px;
@@ -51,4 +54,5 @@ h2{
 }
 footer p{
     text-align: center;
+    font-size: 20px;
 }
