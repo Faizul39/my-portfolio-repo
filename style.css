@@ -4,13 +4,14 @@ body{
 }
 h1{
     font-size: 50px;
-    color: orange;
 }
-section{
+h2{
+    font-size: 40px;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
-
 .half-width{
     width: 50%;
     padding-left: 2%;
@@ -28,4 +29,26 @@ section{
 }
 .top-banner{
     background-image: url();
+}
+.service-item{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    border: 40px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+}
+#web-dev{
+    border-left: 7px solid;   
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice:1 ;
+}
+#service-experience{
+    border-left: 7px solid;   
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
 }
